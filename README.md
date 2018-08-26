@@ -32,10 +32,10 @@ smop pull -l HTML/CSS,JavaScript
 
 To pull a task and create a local working directory, run:
 ```
-smop pull -t "<TaskID number>"
+smop pull -t <TaskID number>
 ```
 
 To submit your code, run: 
 ```
-smop push
+smop push <TaskID number>
 ```
