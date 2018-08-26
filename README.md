@@ -4,8 +4,9 @@ A command-line interface for Smop (smop.io)
 
 ## To Install
 
+Download this repository and run
 ```sh
-npm install -g smop-cli
+npm install -g
 ```
 
 ## To Use
