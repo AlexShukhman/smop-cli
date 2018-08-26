@@ -11,9 +11,31 @@ npm install -g
 
 ## To Use
 
-```sh
-smop auth -u <username> -p <password>
-smop pull -a -l "HTML/CSS" # to get all HTML/CSS tasks
+To sign in, use: 
+```
+smop auth [username]
+```
+To pull all active tasks, run: 
+```
+smop pull -a 
+```
+
+To pull all actives tasks that use certain languages, run: 
+```
+smop pull -l <languages>
+```
+For example: 
+```
+smop pull -l HTML/CSS
+smop pull -l HTML/CSS,JavaScript
+```
+
+To pull a task and create a local working directory, run:
+```
 smop pull -t "<TaskID number>"
+```
+
+To submit your code, run: 
+```
 smop push
 ```
